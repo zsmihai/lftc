@@ -75,9 +75,9 @@ gOneCharOperators = {
     "}": TokenId.TKN_RIGHT_CRL_BRACKET
 }
 
-class Token:
-    tokenString = ""
 
-    def __init__(self, tokenString, tokenId):
-        self.tokenString = tokenString
-        self.tokenId = tokenId
+class Token:
+
+    def __init__(self, token_string, token_id):
+        self.tokenString = token_string
+        self.tokenId = token_id
