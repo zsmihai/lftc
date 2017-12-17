@@ -1,6 +1,6 @@
 import re
 from Lexing.LexerException import LexerException
-from Lexing.Token import gTwoCharOperators, Token, gOneCharOperators, TokenId, gKeyWords
+from Lexing.Token import gTwoCharOperators, Token, gOneCharOperatorsSeparators, TokenId, gKeyWords
 
 class Lexer:
 
@@ -39,7 +39,7 @@ class Lexer:
         if len(token) != 1:
             return None
 
-        token_id = gOneCharOperators.get(token, None)
+        token_id = gOneCharOperatorsSeparators.get(token, None)
         if token_id is not None:
             self.__current_column +=len(token)
             return Token(token_id=token_id, token_string=token)
@@ -76,13 +76,13 @@ class Lexer:
             keyword_id = gKeyWords.get(token_string, None)
 
             if keyword_id is not None:
-                return Token(gKeyWords[token_string], token_string)
+                return Token(token_id = gKeyWords[token_string], token_string = token_string)
 
             if len(token_string) > Lexer.__MAX_IDENTIFIER_LENGTH:
                 raise LexerException("Identifier exceedes max identifier length: {0}".format(Lexer.__MAX_IDENTIFIER_LENGTH),
                                      self.__current_line, self.__current_column )
 
-            return Token(TokenId.TKN_IDENTIFIER, token_string)
+            return Token(token_id = TokenId.TKN_IDENTIFIER,token_string = token_string)
 
         return None
 

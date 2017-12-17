@@ -59,7 +59,7 @@ gTwoCharOperators = {
     "!=": TokenId.TKN_NOT_EQUAL
 }
 
-gOneCharOperators = {
+gOneCharOperatorsSeparators = {
     "=": TokenId.TKN_EQUAL,
     "<": TokenId.TKN_LESS,
     ">": TokenId.TKN_GREATER,

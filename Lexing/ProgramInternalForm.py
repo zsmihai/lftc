@@ -2,32 +2,36 @@ from Lexing.SymbolsTable import SymbolsTable
 from Lexing.Token import TokenId
 
 
+class InternalFormElement:
+    def __init__(self, token_id, id):
+        self.token_id = token_id
+        self.id = id
+
 class ProgramInternalForm:
-    class InternalFormElement:
-        def __init__(self, token_id, id):
-            self.token_id = token_id
-            self.id = id
+
 
     def __init__(self):
-        self.__identifier_table = SymbolsTable()
-        self.__constant_table = SymbolsTable()
-        self.__tokens = []
+        self.identifier_table = SymbolsTable()
+        self.constant_table = SymbolsTable()
+        self.tokens = []
 
     def add_token(self, token):
         if token.tokenId == TokenId.TKN_CONSTANT:
-            self.add_constant(token.tokenString)
+            self.__add_constant(token.tokenString)
         elif token.tokenId == TokenId.TKN_IDENTIFIER:
-            self.add_identifier(token.tokenString)
+            self.__add_identifier(token.tokenString)
         else:
-            self.add_token_by_id(token.tokenId)
+            self.__add_token_by_id(token.tokenId)
 
-    def add_identifier(self, identifier):
-        id = self.__identifier_table.insert_and_get_id(identifier)
-        self.__tokens.append(ProgramInternalForm.InternalFormElement(TokenId.TKN_IDENTIFIER, id))
+    def __add_identifier(self, identifier):
+        id = self.identifier_table.insert_and_get_id(identifier)
+        self.tokens.append(InternalFormElement(TokenId.TKN_IDENTIFIER, id))
 
-    def add_constant(self, constant):
-        id = self.__constant_table.insert_and_get_id(constant)
-        self.__tokens.append(ProgramInternalForm.InternalFormElement(TokenId.TKN_CONSTANT, id))
+    def __add_constant(self, constant):
+        id = self.constant_table.insert_and_get_id(constant)
+        self.tokens.append(InternalFormElement(TokenId.TKN_CONSTANT, id))
 
-    def add_token_by_id(self, token_id):
-        self.__tokens.append(ProgramInternalForm.InternalFormElement(token_id, -1))
+    def __add_token_by_id(self, token_id):
+        self.tokens.append(InternalFormElement(token_id, -1))
+
+

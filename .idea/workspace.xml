@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeb337d9-da7d-438d-a583-0350606059e7" name="Default" comment="" />
+    <list default="true" id="eeb337d9-da7d-438d-a583-0350606059e7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lexing/Analizer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lexing/Regex.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lexing/Scanner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lexing/codification.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lexing/Lexer.py" afterPath="$PROJECT_DIR$/Lexing/Lexer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lexing/Main.py" afterPath="$PROJECT_DIR$/Lexing/Main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lexing/ProgramInternalForm.py" afterPath="$PROJECT_DIR$/Lexing/ProgramInternalForm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lexing/SymbolsTable.py" afterPath="$PROJECT_DIR$/Lexing/SymbolsTable.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lexing/Token.py" afterPath="$PROJECT_DIR$/Lexing/Token.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestFiles/a.in" afterPath="$PROJECT_DIR$/TestFiles/a.in" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,7 +24,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/lab1$Token.coverage" NAME="Token Coverage Results" MODIFIED="1510084579218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexer" />
     <SUITE FILE_PATH="coverage/lab1$Lexer.coverage" NAME="Lexer Coverage Results" MODIFIED="1510084691833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexer" />
-    <SUITE FILE_PATH="coverage/lab1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1510086934486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexing" />
+    <SUITE FILE_PATH="coverage/lab1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1510155423896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexing" />
     <SUITE FILE_PATH="coverage/lab1$Lexer__1_.coverage" NAME="Lexer (1) Coverage Results" MODIFIED="1510084822597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexing" />
     <SUITE FILE_PATH="coverage/lab1$SymbolsTable.coverage" NAME="SymbolsTable Coverage Results" MODIFIED="1510084576801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexer" />
     <SUITE FILE_PATH="coverage/lab1$Scanner.coverage" NAME="Scanner Coverage Results" MODIFIED="1510084574793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lexer" />
@@ -34,32 +46,107 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Regex.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lexing/Regex.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Scanner.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Token.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="11" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python/#D:/sem5/lftc/lab1/Lexing" pinned="false" current-in-tab="false">
+        <entry file="uml://Python/#D:/sem5/lftc/lab1/Lexing">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#D:/sem5/lftc/lab1/Lexing</OriginalElement>
+              <nodes>
+                <node x="650.3611111111111" y="80.0">object</node>
+                <node x="191.3611111111111" y="170.0">Lexing.ProgramInternalForm.ProgramInternalForm</node>
+                <node x="513.3611111111111" y="170.0">Lexing.Token.Token</node>
+                <node x="46.861111111111086" y="250.0">Lexing.Token.TokenId</node>
+                <node x="854.8611111111111" y="250.0">Lexing.LexerException.LexerException</node>
+                <node x="399.06944444444446" y="0.0">_collections_abc.Hashable</node>
+                <node x="915.3611111111111" y="170.0">BaseException</node>
+                <node x="1044.361111111111" y="170.0">Lexing.Lexer.Lexer</node>
+                <node x="72.36111111111109" y="170.0">enum.Enum</node>
+                <node x="0.0" y="80.0">enum.EnumMeta</node>
+                <node x="673.3611111111111" y="170.0">Lexing.SymbolsTable.SymbolsTable</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Lexing.LexerException.LexerException" target="BaseException">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="object" target="_collections_abc.Hashable">
+                  <point x="0.0" y="-15.0" />
+                  <point x="683.8611111111111" y="55.0" />
+                  <point x="506.31944444444446" y="55.0" />
+                  <point x="35.75" y="15.0" />
+                </edge>
+                <edge source="enum.Enum" target="object">
+                  <point x="33.0" y="-15.0" />
+                  <point x="154.8611111111111" y="130.0" />
+                  <point x="655.9444444444443" y="130.0" />
+                  <point x="-27.916666666666742" y="15.0" />
+                </edge>
+                <edge source="Lexing.Token.Token" target="object">
+                  <point x="0.0" y="-15.0" />
+                  <point x="583.3611111111111" y="150.0" />
+                  <point x="678.2777777777778" y="150.0" />
+                  <point x="-5.5833333333332575" y="15.0" />
+                </edge>
+                <edge source="enum.Enum" target="_collections_abc.Hashable">
+                  <point x="0.0" y="-15.0" />
+                  <point x="121.86111111111109" y="150.0" />
+                  <point x="136.5" y="150.0" />
+                  <point x="136.5" y="55.0" />
+                  <point x="434.81944444444446" y="55.0" />
+                  <point x="-35.75" y="15.0" />
+                </edge>
+                <edge source="Lexing.Token.TokenId" target="enum.Enum">
+                  <point x="0.0" y="-15.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="BaseException" target="object">
+                  <point x="0.0" y="-15.0" />
+                  <point x="969.8611111111111" y="140.0" />
+                  <point x="700.6111111111111" y="140.0" />
+                  <point x="16.75" y="15.0" />
+                </edge>
+                <edge source="Lexing.SymbolsTable.SymbolsTable" target="object">
+                  <point x="0.0" y="-15.0" />
+                  <point x="784.3611111111111" y="150.0" />
+                  <point x="689.4444444444443" y="150.0" />
+                  <point x="5.5833333333332575" y="15.0" />
+                </edge>
+                <edge source="Lexing.ProgramInternalForm.ProgramInternalForm" target="object">
+                  <point x="0.0" y="-15.0" />
+                  <point x="342.3611111111111" y="140.0" />
+                  <point x="667.1111111111111" y="140.0" />
+                  <point x="-16.75" y="15.0" />
+                </edge>
+                <edge source="Lexing.Lexer.Lexer" target="object">
+                  <point x="0.0" y="-15.0" />
+                  <point x="1108.361111111111" y="130.0" />
+                  <point x="711.7777777777778" y="130.0" />
+                  <point x="27.916666666666742" y="15.0" />
+                </edge>
+                <edge source="enum.Enum" target="enum.EnumMeta">
+                  <point x="-33.0" y="-15.0" />
+                  <point x="88.86111111111109" y="150.0" />
+                  <point x="63.0" y="150.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.7988264878457669" x="308.0" y="152.0" />
+              <SelectedNodes>
+                <node>enum.EnumMeta</node>
+              </SelectedNodes>
+              <Categories />
             </state>
           </provider>
         </entry>
@@ -67,18 +154,18 @@
       <file leaf-file-name="SymbolsTable.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lexing/SymbolsTable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProgramInternalForm.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProgramInternalForm.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lexing/ProgramInternalForm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="278">
+              <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -89,8 +176,8 @@
       <file leaf-file-name="Lexer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lexing/Lexer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="1326">
+              <caret line="78" column="93" lean-forward="true" selection-start-line="78" selection-start-column="93" selection-end-line="78" selection-end-column="93" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -98,11 +185,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lexing/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Analizer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lexing/Analizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="76" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
@@ -113,7 +212,7 @@
       <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
+            <state relative-caret-position="5423">
               <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
               <folding />
             </state>
@@ -144,6 +243,9 @@
       <find>LexerException</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -156,10 +258,13 @@
         <option value="$PROJECT_DIR$/Lexer/ProgramInternalForm.py" />
         <option value="$PROJECT_DIR$/Lexer/LexerException.py" />
         <option value="$PROJECT_DIR$/Lexer/Lexer.py" />
-        <option value="$PROJECT_DIR$/Lexing/Main.py" />
         <option value="$PROJECT_DIR$/Lexing/LexerException.py" />
-        <option value="$PROJECT_DIR$/Lexing/Lexer.py" />
+        <option value="$PROJECT_DIR$/Lexing/Token.py" />
+        <option value="$PROJECT_DIR$/Lexing/Main.py" />
         <option value="$PROJECT_DIR$/Lexing/SymbolsTable.py" />
+        <option value="$PROJECT_DIR$/Lexing/Lexer.py" />
+        <option value="$PROJECT_DIR$/Lexing/Analizer.py" />
+        <option value="$PROJECT_DIR$/Lexing/ProgramInternalForm.py" />
       </list>
     </option>
   </component>
@@ -190,7 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,11 +324,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lftc" />
   </component>
   <component name="RunManager" selected="Python.Main">
     <configuration default="false" name="Lexer" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -563,26 +669,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27458397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28366113" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5424837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2009804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34150326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,12 +701,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Lexing/Main.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/Lexing/Analizer.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -613,22 +719,253 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py">
+    <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py">
+    <entry file="uml://Python/#D:/sem5/lftc/lab1/Lexing">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/sem5/lftc/lab1/Lexing</OriginalElement>
+          <nodes>
+            <node x="650.3611111111111" y="80.0">object</node>
+            <node x="191.3611111111111" y="170.0">Lexing.ProgramInternalForm.ProgramInternalForm</node>
+            <node x="513.3611111111111" y="170.0">Lexing.Token.Token</node>
+            <node x="46.861111111111086" y="250.0">Lexing.Token.TokenId</node>
+            <node x="854.8611111111111" y="250.0">Lexing.LexerException.LexerException</node>
+            <node x="399.06944444444446" y="0.0">_collections_abc.Hashable</node>
+            <node x="915.3611111111111" y="170.0">BaseException</node>
+            <node x="1044.361111111111" y="170.0">Lexing.Lexer.Lexer</node>
+            <node x="72.36111111111109" y="170.0">enum.Enum</node>
+            <node x="0.0" y="80.0">enum.EnumMeta</node>
+            <node x="673.3611111111111" y="170.0">Lexing.SymbolsTable.SymbolsTable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Lexing.LexerException.LexerException" target="BaseException">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="object" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="683.8611111111111" y="55.0" />
+              <point x="506.31944444444446" y="55.0" />
+              <point x="35.75" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="object">
+              <point x="33.0" y="-15.0" />
+              <point x="154.8611111111111" y="130.0" />
+              <point x="655.9444444444443" y="130.0" />
+              <point x="-27.916666666666742" y="15.0" />
+            </edge>
+            <edge source="Lexing.Token.Token" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="583.3611111111111" y="150.0" />
+              <point x="678.2777777777778" y="150.0" />
+              <point x="-5.5833333333332575" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="121.86111111111109" y="150.0" />
+              <point x="136.5" y="150.0" />
+              <point x="136.5" y="55.0" />
+              <point x="434.81944444444446" y="55.0" />
+              <point x="-35.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.Token.TokenId" target="enum.Enum">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="BaseException" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="969.8611111111111" y="140.0" />
+              <point x="700.6111111111111" y="140.0" />
+              <point x="16.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.SymbolsTable.SymbolsTable" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="784.3611111111111" y="150.0" />
+              <point x="689.4444444444443" y="150.0" />
+              <point x="5.5833333333332575" y="15.0" />
+            </edge>
+            <edge source="Lexing.ProgramInternalForm.ProgramInternalForm" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="342.3611111111111" y="140.0" />
+              <point x="667.1111111111111" y="140.0" />
+              <point x="-16.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.Lexer.Lexer" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1108.361111111111" y="130.0" />
+              <point x="711.7777777777778" y="130.0" />
+              <point x="27.916666666666742" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="enum.EnumMeta">
+              <point x="-33.0" y="-15.0" />
+              <point x="88.86111111111109" y="150.0" />
+              <point x="63.0" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7988264878457669" x="308.0" y="152.0" />
+          <SelectedNodes>
+            <node>enum.EnumMeta</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/SymbolsTable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/ProgramInternalForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Lexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="93" lean-forward="true" selection-start-line="78" selection-start-column="93" selection-end-line="78" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Analizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5423">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/LexerException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/SymbolsTable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/ProgramInternalForm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Lexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5423">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/LexerException.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="87" lean-forward="false" selection-start-line="7" selection-start-column="87" selection-end-line="7" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py" />
     <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -673,30 +1010,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/codification.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/codification.json" />
     <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -705,22 +1021,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/codification.json">
+    <entry file="file://$PROJECT_DIR$/Lexing/codification.json" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="5423">
+          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Regex.py" />
+    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py" />
     <entry file="file://$PROJECT_DIR$/Lexing/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,28 +1040,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="39" column="9" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="9" />
-          <folding />
+    <entry file="uml://Python/#D:/sem5/lftc/lab1/Lexing">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/sem5/lftc/lab1/Lexing</OriginalElement>
+          <nodes>
+            <node x="650.3611111111111" y="80.0">object</node>
+            <node x="191.3611111111111" y="170.0">Lexing.ProgramInternalForm.ProgramInternalForm</node>
+            <node x="513.3611111111111" y="170.0">Lexing.Token.Token</node>
+            <node x="46.861111111111086" y="250.0">Lexing.Token.TokenId</node>
+            <node x="854.8611111111111" y="250.0">Lexing.LexerException.LexerException</node>
+            <node x="399.06944444444446" y="0.0">_collections_abc.Hashable</node>
+            <node x="915.3611111111111" y="170.0">BaseException</node>
+            <node x="1044.361111111111" y="170.0">Lexing.Lexer.Lexer</node>
+            <node x="72.36111111111109" y="170.0">enum.Enum</node>
+            <node x="0.0" y="80.0">enum.EnumMeta</node>
+            <node x="673.3611111111111" y="170.0">Lexing.SymbolsTable.SymbolsTable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Lexing.LexerException.LexerException" target="BaseException">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="object" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="683.8611111111111" y="55.0" />
+              <point x="506.31944444444446" y="55.0" />
+              <point x="35.75" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="object">
+              <point x="33.0" y="-15.0" />
+              <point x="154.8611111111111" y="130.0" />
+              <point x="655.9444444444443" y="130.0" />
+              <point x="-27.916666666666742" y="15.0" />
+            </edge>
+            <edge source="Lexing.Token.Token" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="583.3611111111111" y="150.0" />
+              <point x="678.2777777777778" y="150.0" />
+              <point x="-5.5833333333332575" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="_collections_abc.Hashable">
+              <point x="0.0" y="-15.0" />
+              <point x="121.86111111111109" y="150.0" />
+              <point x="136.5" y="150.0" />
+              <point x="136.5" y="55.0" />
+              <point x="434.81944444444446" y="55.0" />
+              <point x="-35.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.Token.TokenId" target="enum.Enum">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="BaseException" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="969.8611111111111" y="140.0" />
+              <point x="700.6111111111111" y="140.0" />
+              <point x="16.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.SymbolsTable.SymbolsTable" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="784.3611111111111" y="150.0" />
+              <point x="689.4444444444443" y="150.0" />
+              <point x="5.5833333333332575" y="15.0" />
+            </edge>
+            <edge source="Lexing.ProgramInternalForm.ProgramInternalForm" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="342.3611111111111" y="140.0" />
+              <point x="667.1111111111111" y="140.0" />
+              <point x="-16.75" y="15.0" />
+            </edge>
+            <edge source="Lexing.Lexer.Lexer" target="object">
+              <point x="0.0" y="-15.0" />
+              <point x="1108.361111111111" y="130.0" />
+              <point x="711.7777777777778" y="130.0" />
+              <point x="27.916666666666742" y="15.0" />
+            </edge>
+            <edge source="enum.Enum" target="enum.EnumMeta">
+              <point x="-33.0" y="-15.0" />
+              <point x="88.86111111111109" y="150.0" />
+              <point x="63.0" y="150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7988264878457669" x="308.0" y="152.0" />
+          <SelectedNodes>
+            <node>enum.EnumMeta</node>
+          </SelectedNodes>
+          <Categories />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/Lexing/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="319" column="0" lean-forward="false" selection-start-line="319" selection-start-column="0" selection-end-line="319" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" column="11" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lexing/Lexer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="93" lean-forward="true" selection-start-line="78" selection-start-column="93" selection-end-line="78" selection-end-column="93" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lexing/Analizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="76" lean-forward="false" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,38 +1179,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Scanner.py">
+    <entry file="file://$PROJECT_DIR$/Lexing/SymbolsTable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="136">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lexing/ProgramInternalForm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="278">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/SymbolsTable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lexing/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>

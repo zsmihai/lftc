@@ -22,3 +22,6 @@ class SymbolsTable:
 
     def get_by_id(self, id):
         return self.__id_table[id]
+
+    def symbols(self):
+        return self.__symbol_table
