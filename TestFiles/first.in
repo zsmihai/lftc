@@ -1,0 +1,9 @@
+data
+    int a, b;
+    array char c[a];
+end data
+code
+    in(a);
+    b = a + c[a];
+    out(b);
+end code
